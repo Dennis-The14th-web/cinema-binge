@@ -34,7 +34,6 @@ function App() {
     setState(prevState => {
       return { ...prevState, srch: srch }
     });
-    // console.log(state.srch);
   }
 
   const openModal = id => {
