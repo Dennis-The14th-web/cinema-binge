@@ -40,7 +40,7 @@ function App() {
     axios(queryUrl + "&i=" + id)
     .then(({ data }) => {
       let result = data;
-      console.log(result);
+      // console.log(result);
 
       setState(prevState => {
         return { ...prevState, selected: result }
