@@ -18,7 +18,7 @@ function App() {
   const search = (e) => {
     if (e.key === "Enter") {
       axios(queryUrl + "&s=" + state.srch).then(({ data }) => {
-        console.log(data);
+        // console.log(data);
         let results = data.Search;
 
         setState(prevState => {
@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1> <small>CINEMA</small> BINGE</h1>
+        <h1> <small>CINEMA</small>BINGE</h1>
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
