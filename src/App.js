@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1> <small>CINEMA</small>BINGE</h1>
+        <h1><b id="c">C</b><small id="cinema">INEMA</small> <b id="binge"> B</b><small>INGE</small></h1>
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
